@@ -1,0 +1,5 @@
+[servidores]
+server1 ansible_ssh_host=3.221.170.34
+server2 ansible_ssh_host=52.87.158.189
+[balanceador]
+balancer ansible_ssh_host=52.91.223.185

@@ -1,0 +1,8 @@
+- hosts: balanceador
+  become: true
+  roles:
+  - basic
+- hosts: servidores
+  become: true
+  roles:
+  - server	
